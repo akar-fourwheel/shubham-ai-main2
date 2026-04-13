@@ -239,7 +239,7 @@ async def incoming_call(request: Request, background_tasks: BackgroundTasks):
     start_call_session(call_sid, caller, direction="inbound")
 
     # 🔥 OPTIMIZATION: Shorter greeting — less TTS latency
-    greeting = "Namaste! Main Priya, Shubham Motors se. Kaise madad karoon?"
+    greeting = get_opening_message(None, is_inbound=True)
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Say language="hi-IN">{_xml_safe(greeting)}</Say>
