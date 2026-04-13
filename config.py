@@ -90,7 +90,7 @@ LLM_MAX_TOKENS_SMART    = int(os.getenv("LLM_MAX_TOKENS_SMART", "60"))
 THREAD_POOL_SIZE        = int(os.getenv("THREAD_POOL_SIZE", "16"))
 
 # 🔥 OPTIMIZATION: WebSocket audio buffer threshold (bytes) — lower = faster response
-WS_AUDIO_BUFFER_THRESHOLD = int(os.getenv("WS_AUDIO_BUFFER_THRESHOLD", "18000"))
+WS_AUDIO_BUFFER_THRESHOLD = int(os.getenv("WS_AUDIO_BUFFER_THRESHOLD", "12000"))
 
 
 # -- Startup validation -------------------------------------------------------

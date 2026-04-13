@@ -78,7 +78,6 @@ INTENTS = {
             "timing", "kitne baje", "kab khulta", "band kab", "working hours",
             "khula", "showroom ka time", "showroom ki timing", "टाइम", "समय",
             "कितने बजे", "कब खुलता", "बंद कब", "वर्किंग आवर्स", "खुला रहेगा",
-            "खुला रहता", "कब तक खुला", "रूम कब", "कब बंद", "खुलता है", "बंद होता", 
         ]),
         "response": "Monday se Saturday, subah 9 se shaam 7 baje tak."
     },
